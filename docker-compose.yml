@@ -14,8 +14,6 @@ services:
    ports:
      - ${NGINX_80}:80
      - ${NGINX_443}:443
-   depends_on:
-     - app
    networks:
      - app-network
 
